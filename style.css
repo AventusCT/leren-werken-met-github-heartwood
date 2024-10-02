@@ -29,6 +29,35 @@ th, td {
     text-align: left;
 }
 
+< navigatie
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #e60505;
+}
+
+li {
+    padding: 8px;
+    float: left;
+}
+
+li:last-child {
+    border-right: none;
+}
+
+li a {
+    display: block;
+    color: rgb(208, 255, 0);
+    text-align: center;
+    padding: 14px, 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: darkblue;
+=======
 /* Student B zal hier extra stijlen toevoegen voor de ongeordende lijst */
 
 .tabel1 {
@@ -37,4 +66,5 @@ th, td {
 
 p {
     margin: 20px;
+> main
 }
